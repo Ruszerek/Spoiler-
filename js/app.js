@@ -11,19 +11,6 @@ $(document).ready(function(){
 		$(this).prev().fadeIn(1500);
 		$(this).hide();
 	});
-/*
-var rotation = 0;
-
-jQuery.fn.rotate = function(degrees) {
-    $(this).css({'transform' : 'rotate('+ degrees +'deg)'});
-    return $(this);
-};
-
-$(".rotate").click(function() {
-    rotation += 5;
-    $(this).rotate(rotation);
-});
-*/
 
 $('img').click(function someFunction2() {
     $("#image").animate(
